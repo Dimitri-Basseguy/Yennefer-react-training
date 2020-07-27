@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "React starter project",
   "main": "index.js",
+  "repository": "https://github.com/Dimitri-Basseguy/Challenge-recette",
   "author": "Dimitri Basseguy <dimitri.basseguy@gmail.com>",
   "license": "MIT",
   "scripts": {
