@@ -4,6 +4,7 @@ import React from 'react';
 // == Import
 import Header from 'src/components/Header';
 import Ingredients from 'src/components/Ingredients';
+import Steps from 'src/components/Steps';
 import './app.scss';
 /*
 - Intégration statique (sans props)
@@ -18,7 +19,7 @@ const App = () => (
   <div className="app">
     <Header />
     <Ingredients />
-    <div>Step</div>
+    <Steps />
   </div>
 );
 
