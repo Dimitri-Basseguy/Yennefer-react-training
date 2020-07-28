@@ -1,0 +1,35 @@
+.header {
+	margin-bottom: 2rem;
+	position: relative;
+	.header-image {
+		max-width: 100%;
+		border-radius: 0 0 1rem 1rem;
+	}
+
+	.header-content {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 2rem;
+		text-align: center;
+		background-color: rgba(0,0,0,0.3);
+		padding: 2rem;
+		color: white;
+
+		.header-title {
+			font-size: 2.5em;
+			font-style: italic;
+			font-family: Georgia, serif;
+			font-weight: bold;
+
+			// & sera remplacé par le nom du parent (.header-title)
+			// &:hover {
+			// 	color: wheat;
+			// }
+		}
+
+		.header-info {
+			margin-top: 0.5em;
+		}
+	}
+}
