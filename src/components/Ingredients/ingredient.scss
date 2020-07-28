@@ -1,0 +1,23 @@
+// import
+@import 'src/styles/_vars.scss';
+
+.ingredients {
+	margin-bottom: 2rem;
+
+	.ingredient {
+		text-align: left;
+		padding: .8rem 2rem;
+		border-bottom: 1px solid #ccc;
+
+		&:last-child {
+				border-bottom: 0px;
+		}
+	}
+
+	.quantity {
+		background-color: $mainColor;
+		color: white;
+		padding: .4rem .8rem;
+		border-radius: 10px;
+	}
+}
