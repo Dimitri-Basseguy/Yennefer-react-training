@@ -33,7 +33,7 @@ const App = () => {
         thumbnail={data.thumbnail}
       />
       <Ingredients ingredients={data.ingredients} />
-      <Steps />
+      <Steps steps={data.instructions} />
     </div>
   );
 };
