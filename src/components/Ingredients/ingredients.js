@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 const Ingredient = ({ name, quantity, unit }) => (
   <li className="ingredient">
-    <span className="quantity">{quantity} {unit}</span> {name}
+    <span className="quantity">{quantity} {unit}</span>{name}
   </li>
 );
 

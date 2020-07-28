@@ -24,7 +24,7 @@ const Ingredients = ({ ingredients }) => (
 Ingredients.propTypes = {
   // tableau d'objets
   // ingredients: PropTypes.arrayOf(PropTypes.object).isRequired,
-  // c'est mieux de préciser la forme de l'objet
+  // c'est mieux de préciser la forme de l'objet "{}"
   ingredients: PropTypes.arrayOf(
     // a la forme d'un objet
     PropTypes.shape({
