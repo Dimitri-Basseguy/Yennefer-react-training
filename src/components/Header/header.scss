@@ -1,9 +1,13 @@
 .header {
 	margin-bottom: 2rem;
 	position: relative;
+
 	.header-image {
+		height: 600px;
 		max-width: 100%;
 		border-radius: 0 0 1rem 1rem;
+		background-image: url("https://a-static.besthdwallpaper.com/the-witcher-3-wild-hunt-yennefer-fond-d-ecran-1024x768-21302_18.jpg");
+		background-size: cover;
 	}
 
 	.header-content {
@@ -30,6 +34,7 @@
 
 		.header-info {
 			margin-top: 0.5em;
+			font-style: italic;
 		}
 	}
 }

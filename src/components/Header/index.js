@@ -23,10 +23,11 @@ const Header = ({
   thumbnail,
 }) => (
   <header className="header">
-    <img className="header-image" src={thumbnail} alt="crêpes" />
-    <div className="header-content">
-      <h1 className="header-title">{title}</h1>
-      <p className="header-info">{author} - {difficulty}</p>
+    <div className="header-image">
+      <div className="header-content">
+        <h1 className="header-title">{title}</h1>
+        <p className="header-info">{author} {difficulty}</p>
+      </div>
     </div>
   </header>
 );

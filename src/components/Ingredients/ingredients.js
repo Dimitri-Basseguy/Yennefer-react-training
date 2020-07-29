@@ -13,7 +13,7 @@ const Ingredient = ({ name, quantity, unit }) => (
 
 // Validation des props
 Ingredient.propTypes = {
-  quantity: PropTypes.number.isRequired,
+  quantity: PropTypes.string.isRequired,
   unit: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
 };
