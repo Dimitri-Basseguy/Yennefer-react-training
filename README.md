@@ -11,7 +11,7 @@
 
 ![screen-shot-yennefer-react](https://github.com/Dimitri-Basseguy/Yennefer-react-training/blob/master/screen-shot.png)
 
-Simple todo-list with Javascript vanilla. For training in declarative programming
+Simple web page with Javascript and react. For training.
 
 ### Built With
 
